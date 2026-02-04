@@ -218,7 +218,7 @@ plugins: []
 ### Portal with specific plugin versions
 
 ```yaml
-portalPlugins:
+plugins:
   - module: go.lumeweb.com/portal-plugin-dashboard
     version: v2.1.0
   - module: go.lumeweb.com/portal-plugin-auth

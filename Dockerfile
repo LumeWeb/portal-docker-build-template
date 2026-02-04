@@ -13,7 +13,7 @@ COPY portal-plugins.yaml .
 # Build the portal with plugins
 # Environment variables can be set here or via ARG
 ARG PORTAL_VERSION
-ENV PORTAL_VERSION=${PORTAL_VERSION}
+ENV PORTAL_VERSION=${PORTAL_VERSION:-develop}
 
 # Run the build script
 RUN build-portal
